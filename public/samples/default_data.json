@@ -1,0 +1,27 @@
+{"table": [
+    {
+    	"fullname": "Adam Gert",
+      "office": "worker",
+      "birthdate": "01-01-1990",
+      "gender": "male",
+      "fired": false
+  	},
+  	{
+    	"fullname": "Sara Gert",
+      "office": "worker",
+      "birthdate": "03-01-1991",
+      "gender": "female",
+      "fired": true
+  	},
+  	{
+    	"fullname": "Shon Gert",
+      "office": "manager",
+      "birthdate": "02-01-1992",
+      "gender": "male",
+      "fired": false
+  	}
+  ],
+  "offices": [
+    "worker", "manager", "engineer"
+  ]
+}
