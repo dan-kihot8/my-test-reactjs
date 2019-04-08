@@ -117,7 +117,7 @@ export default class App extends Component {
   };
 
   getUsers() {
-    axios.get('/samples/default_data.json')
+    axios.get('./samples/default_data.json')
       .then((res) => {
         this.setState({
           employers: res.data.table,
