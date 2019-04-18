@@ -51,12 +51,6 @@ export default class App extends Component {
     } else {
       item = this.emptyEmployer;
     }
-        $("#fullname").val(item.fullname);
-    // $("#dateItem input").val(item.birthdate);
-    $("#firedCheck").attr("checked", item.fired);
-    $("#officeSelect").val(item.office);
-    document.getElementById("maleRadio").checked = (item.gender === "male");
-    document.getElementById("femaleRadio").checked = (item.gender === "female");
 
     this.setState({
       gender: item.gender,
